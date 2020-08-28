@@ -1,0 +1,87 @@
+* Ctrl + Shift + L -> selecionar todas as ocorrências
+* Esc -> resetar a seleção
+
+* Selecionar o " e ir até o início da linha usando Home antes das bibliotecas e deletar tudo
+* Selecionar  * Delete para remover a linha em branco e deixar tudo em uma só linha
+
+    "@babel/node": "^7.0.0",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "commitlint": "^8.2.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.3",
+    "jest": "^25.3.0",
+    "lint-staged": "10.1.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^2.0.4",
+    "supertest": "^4.0.2"
+
+Vira:
+
+  yarn add -D @babel/node @commitlint/cli @commitlint/config-conventional babel-core babel-jest commitlint cz-conventional-changelog eslint eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-standard husky jest lint-staged nodemon prettier supertest
+
+---
+
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-regenerator": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@hapi/joi": "^17.1.1",
+    "@koa/cors": "^3.0.0",
+    "aws-sdk": "^2.655.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "file-type": "^14.1.4",
+    "firebase": "^7.13.2",
+    "googleapis": "^48.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.20.13",
+    "koa": "^2.5.3",
+    "koa-body": "^4.0.4",
+    "koa-helmet": "^5.2.0",
+    "koa-jwt": "^3.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^8.0.8",
+    "koa-unless": "celsomarques/koa-unless#koa-v2",
+    "nodemailer": "^6.4.2",
+    "objection": "^2.2.1",
+    "objection-db-errors": "^1.1.2",
+    "objection-guid": "^3.0.2",
+    "objection-visibility": "^1.0.0",
+    "pg": "^8.0.0",
+    "sqlite3": "^4.1.0",
+    "uuid": "^7.0.3",
+    "xhr2": "^0.2.0"
+
+Vira:
+
+yarn add @babel/cli @babel/core @babel/plugin-proposal-class-properties @babel/plugin-proposal-decorators @babel/plugin-proposal-do-expressions @babel/plugin-proposal-export-default-from @babel/plugin-proposal-export-namespace-from @babel/plugin-proposal-function-bind @babel/plugin-proposal-function-sent @babel/plugin-proposal-json-strings @babel/plugin-proposal-logical-assignment-operators @babel/plugin-proposal-nullish-coalescing-operator @babel/plugin-proposal-numeric-separator @babel/plugin-proposal-optional-chaining @babel/plugin-proposal-pipeline-operator @babel/plugin-proposal-throw-expressions @babel/plugin-syntax-dynamic-import @babel/plugin-syntax-import-meta @babel/plugin-transform-regenerator @babel/plugin-transform-runtime @babel/preset-env @hapi/joi @koa/cors aws-sdk babel-eslint babel-plugin-module-resolver bcryptjs dotenv file-type firebase googleapis jsonwebtoken knex koa koa-body koa-helmet koa-jwt koa-logger koa-router koa-unless nodemailer objection objection-db-errors objection-guid objection-visibility pg sqlite3 uuid xhr2
