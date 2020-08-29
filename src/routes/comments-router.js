@@ -5,7 +5,7 @@ import CommentsValidate from 'validators/comments-schema'
 
 const router = new Router()
 
-router.get('/comments', CommentsController.index)
+router.get('/comments/application/:id', CommentsController.index)
 
 router.post('/comments', CommentsValidate.create(), CommentsController.create)
 

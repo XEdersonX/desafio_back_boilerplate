@@ -5,7 +5,7 @@ import { baseModel, modelUuid } from './index'
 
 class User extends modelUuid(baseModel) {
   static tableName = 'users'
-  static hidden = ['password']
+  static hidden = ['password'] // olculto a senha pra nao aparecer no json
 
   static relationMappings = {
     role: {

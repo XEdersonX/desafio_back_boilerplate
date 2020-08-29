@@ -1,8 +1,13 @@
 import Application from 'models/Application'
 
-export const index = () => Application.query().find()
+export const index = () =>
+  Application.query().withGraphFetched('user').withGraphFetched('vacancy')
 
-export const show = ctx => Application.query().findOne({ id: ctx.params.id })
+export const show = ctx =>
+  Application.query()
+    .findOne({ id: ctx.params.id })
+    .withGraphFetched('user')
+    .withGraphFetched('vacancy') // Tem que ser o nome da model
 
 export const create = async ctx => {
   const { body } = ctx.request
