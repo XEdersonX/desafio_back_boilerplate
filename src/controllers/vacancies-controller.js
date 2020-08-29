@@ -1,6 +1,6 @@
 import Vacancy from 'models/Vacancy'
 
-export const index = () => Vacancy.query().find()
+export const index = () => Vacancy.query()
 
 export const show = ctx => Vacancy.query().findOne({ id: ctx.params.id })
 

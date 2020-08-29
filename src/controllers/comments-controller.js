@@ -1,7 +1,9 @@
 import CommentsApplication from 'models/CommentsApplication'
 
 export const index = ctx =>
-  CommentsApplication.query().find({ application_id: ctx.params.id })
+  CommentsApplication.query()
+    .where('application_id', `${ctx.params.id}`)
+    .withGraphFetched('user')
 
 export const show = ctx =>
   CommentsApplication.query().findOne({ id: ctx.params.id })
