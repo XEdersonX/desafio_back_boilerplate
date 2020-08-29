@@ -3,6 +3,12 @@ import Application from 'models/Application'
 export const index = () =>
   Application.query().withGraphFetched('user').withGraphFetched('vacancy')
 
+export const indexUser = ctx =>
+  Application.query()
+    .where('user_id', ctx.params.id)
+    .withGraphFetched('user')
+    .withGraphFetched('vacancy')
+
 export const show = ctx =>
   Application.query()
     .findOne({ id: ctx.params.id })
@@ -34,6 +40,7 @@ export default {
   create,
   update,
   index,
+  indexUser,
   show,
   destroy
 }

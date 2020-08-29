@@ -6,6 +6,7 @@ import ApplicationValidate from 'validators/application-schema'
 const router = new Router()
 
 router.get('/application', ApplicationController.index)
+router.get('/application/user/:id', ApplicationController.indexUser)
 
 router.post(
   '/application',
