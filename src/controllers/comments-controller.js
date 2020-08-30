@@ -22,7 +22,7 @@ export const update = async ctx => {
   const { body } = ctx.request
 
   return CommentsApplication.query().patchAndFetchById(ctx.params.id, {
-    application_id: nbody.application_id,
+    application_id: body.application_id,
     user_id: body.user_id,
     description: body.description
   })

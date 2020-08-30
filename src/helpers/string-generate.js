@@ -1,3 +1,4 @@
+// faker.js -> gerar dados reais aleatórios
 import crypto from 'crypto'
 
 export const stringGenerator = (
@@ -22,4 +23,16 @@ export const emailGenerator = (length = 5) => {
   const domain = stringGenerator(5)
 
   return `${string}@${domain}.com`
+}
+
+export const cpfGenerator = () => {
+  const cpf = stringGenerator(11, '0123456789')
+
+  return cpf
+}
+
+export const foneGenerator = () => {
+  const fone = stringGenerator(8, '0123456789')
+
+  return `53${fone}`
 }
